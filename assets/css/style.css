@@ -188,3 +188,27 @@ input[type=submit] {
     cursor: pointer;
     
 }
+
+@media screen and (max-width: 980px) {
+    .main-content {
+        width: 75%;
+        margin: 0 0 0 20px;
+    }
+
+    #My-name {
+        margin: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .main-content {
+       width: 100% ;
+   }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+        display: block;
+    }
+}
